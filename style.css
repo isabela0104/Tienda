@@ -513,6 +513,9 @@ h3{
     .formulario__grupo-btn-enviar{
         margin-right: -9vw;
     }
+    .formulario__validacion-estado {
+        right: -30px;
+}
 }
 /*footer*/
 footer{
@@ -556,7 +559,6 @@ footer{
 .iframediv{
     margin: 1%;
 }
-
 
 @media only screen and (min-width:750px){
     nav{
