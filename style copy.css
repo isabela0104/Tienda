@@ -558,8 +558,23 @@ footer{
 .iframediv{
     margin: 1%;
 }
-
-
+/*
+@media only screen and (min-width:380px){
+    body{
+        padding-bottom: 90vh;
+    }
+    footer{
+        height: 75vh;
+    }
+}
+@media only screen and (min-width:499px){
+    body{
+        padding-bottom: 60vh;
+    }
+    footer{
+        height: 60vh;
+    }
+}
 @media only screen and (min-width:750px){
     nav{
         flex-direction: row;
@@ -584,10 +599,23 @@ footer{
     .logo-img{
         height: 5vh;
     }
-    .divfooter{
+
+   body{
+    padding-bottom: 50vh;
+   }
+
+   .divfooter{
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
+   }
+   .iframe{
+        margin: 0;
+        width: 40vw; 
+        height: 25vh;
+   }
+   footer{
+    height: 40vh;
    }
 }
 @media only screen and (min-width:800px){
@@ -597,6 +625,10 @@ footer{
     .img_logo_grande{
         height: 50vh;
     }
+    body{
+        padding-bottom: 40vh;
+    }
+
 
 }
 @media only screen and (min-width:900px){
@@ -614,6 +646,21 @@ footer{
     .logo-img{
         height: 5vh;
     }
+
+   body{
+    padding-bottom: 40vh;
+   }
+
+   .divfooter{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+   }
+   .iframe{
+        margin: 0;
+        width: 40vw; 
+        height: 25vh;
+   }
 }
 @media only screen and (min-width:1000px){
     .botones{
@@ -628,4 +675,21 @@ footer{
     .logo-img{
         height: 8vh;
     }
+
+   body{
+    padding-bottom: 50vh;
+   }
+   footer{
+    height: 40vh;;
+   }
+   .divfooter{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+   }
+   .iframe{
+        width: 40vw; 
+        height: 25vh;
+        margin-right: 5vh;
+   }
 }
