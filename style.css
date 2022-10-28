@@ -371,20 +371,20 @@ colores{
 h3{
     color: #ff9922;
     text-align: center;
-    font-size: 7vh;
+    font-size: 9vh;
     font-family: 'creepster';
 }
 .form{
     width: 100vw;
     display: flex;
     justify-content: center;
-    height: 50vh
+    height: 50vh;
+    margin-top: -8vh
 }
 .formulario {
 	display: flex;
 	flex-direction: column;
     width: 50vw;
-
 }
 
 .formulario__label {
