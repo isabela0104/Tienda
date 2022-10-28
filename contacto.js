@@ -4,7 +4,7 @@ const inputs = document.querySelectorAll('#formulario input');
 const expresiones = {
 	nombre: /^[A-ZÑa-zñáéíóúÁÉÍÓÚ'° ]+$/, 
 	correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
-    mensaje: /^[ a-zA-Z0-9_.+-]+$/,
+    mensaje: /^[ A-ZÑa-zñáéíóúÁÉÍÓÚ'°0-9_.+-?!()/,=%$#@*:;><'"|ºª]+$/,
 }
 
 const campos = {
